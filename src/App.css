@@ -1,4 +1,5 @@
 .App {
+  height: 100vh;
   text-align: center;
 }
 
@@ -26,6 +27,10 @@
 
 .App-link {
   color: #61dafb;
+}
+
+#root {
+  height: 100vh;
 }
 
 @keyframes App-logo-spin {
