@@ -934,18 +934,18 @@ const canvasWorker = () => {
         // KeyDown
         else if (e.data.id === 3) {
             switch (e.data.keyCode) {
-                case 90: keyboard.up = true; break;
+                case 90 || 87: keyboard.up = true; break;
                 case 83: keyboard.down = true; break;
-                case 81: keyboard.left = true; break;
+                case 81 || 65: keyboard.left = true; break;
                 case 68: keyboard.right = true; break;
             }
         }
         // KeyUp
         else if (e.data.id === 4) {
             switch (e.data.keyCode) {
-                case 90: keyboard.up = false; break;
+                case 90 || 87: keyboard.up = false; break;
                 case 83: keyboard.down = false; break;
-                case 81: keyboard.left = false; break;
+                case 81 || 65: keyboard.left = false; break;
                 case 68: keyboard.right = false; break;
             }
         }
